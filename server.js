@@ -16,5 +16,5 @@ app.use('/task',auth,taskRoute)
 
 
 app.listen(process.env.port,()=>{
-    console.log('hello')
+    console.log('server is started')
 })
